@@ -5,7 +5,7 @@ const session = localStorage.getItem("session");
 //Check o login
 checkLogged();
 
-//Logar no Sistema - INDEX
+//Logar no Sistema 
 document.getElementById("login-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
@@ -32,7 +32,7 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
     }
 });
 
-//Criar Conta - INDEX
+//Criar Conta 
 document.getElementById("create-form").addEventListener("submit", function(e) {
     e.preventDefault();
 

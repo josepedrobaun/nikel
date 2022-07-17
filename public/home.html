@@ -9,37 +9,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
-    
 </head>
+
 <body id="app">
+
     <header>
         <nav class="navbar navbar-expand bg-white">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/images/nikel-small-logo.png" alt="Logo Nikel" class="img-fluid" srcset="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/nikel-small-logo.png" alt="Logo Nikel" class="img-fluid" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <div class="d-flex menu">
-                    <a href="home.html"><button class="btn" type="button"><i class="bi bi-house-door-fill color-secondary fs-4"></i></button></a>
-                    <a href="transactions.html"><button class="btn" type="button"><i class="bi bi-currency-exchange fs-4"></i></button></a>  
-                
-                    <div class="dropdown">
-                        <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-person-circle fs-4"></i>
-                        </button>
-                        <ul class="dropdown-menu logout" aria-labelledby="dropdownMenuButton1">
-                            <li><button class="dropdown-item" id="button-logout">Sair</button></li>
-                        </ul>
-                    </div>
-
-                </div>  
-              </div>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="d-flex menu">
+                        <a href="home.html"><button class="btn" type="button"><i class="bi bi-house-door-fill color-secondary fs-4"></i></button></a>
+                        <a href="transactions.html"><button class="btn" type="button"><i class="bi bi-currency-exchange fs-4"></i></button></a>  
+                        <div class="dropdown">
+                            <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle fs-4"></i>
+                            </button>
+                            <ul class="dropdown-menu logout" aria-labelledby="dropdownMenuButton1">
+                                <li><button class="dropdown-item" id="button-logout">Sair</button></li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
+
     <main>
         <div class="container-lg">
             <div class="row">
@@ -89,8 +89,8 @@
             <button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transaction-modal"><i class="bi bi-plus"></i></button>
 
         </div>
-         <!-- Modal -->
-         <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal -->
+        <div class="modal fade" id="transaction-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -130,7 +130,9 @@
                 </div>
             </div>
         </div>
+
         <script src="./js/home.js"></script>
+
     </main>
 </body>
 </html>
